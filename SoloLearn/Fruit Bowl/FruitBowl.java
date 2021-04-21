@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FruitBowl{
+public class FruitBowl {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
