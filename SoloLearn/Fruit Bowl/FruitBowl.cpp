@@ -7,5 +7,5 @@ int main() {
     int apples = fruit / 2;
     int pies = apples / 3;
     cout << pies;
-    reurn 0;
+    return 0;
 }
