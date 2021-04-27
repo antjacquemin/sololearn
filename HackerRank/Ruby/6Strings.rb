@@ -32,5 +32,18 @@ def count_multibyte_char str
 end
 
 # 5 Methods 1
+def process_text arr
+    arr.map { |str| str.strip }.join(" ")
+end
 
 # 6 Methods 2
+def strike str
+    return "<strike>#{str}</strike>"
+end
+
+def mask_article(str, arr)
+    arr.each do |word| 
+        str.gsub!(word, strike(word))
+    end
+    return str
+end
