@@ -7,9 +7,9 @@ int main() {
     while (cin >> order) {
         if (order == "Nachos" || order == "Pizza")
             total += 6.0;
-        elif (order == "Cheeseburger")
+        else if (order == "Cheeseburger")
             total += 10.0;
-        elif (order == "Water")
+        else if (order == "Water")
             total += 4.0;
         else
             total += 5.0;
