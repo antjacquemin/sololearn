@@ -1,4 +1,4 @@
-orders = gets.chomp.split()
+orders = gets.chomp.split
 total = 0.0
 for order in orders
     case order
