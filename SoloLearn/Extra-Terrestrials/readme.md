@@ -60,6 +60,7 @@ print(input()[::-1])
 ```
 ### Ruby
 ```ruby
+puts gets.chomp.reverse
 ```
 ### Swift
 ```swift
