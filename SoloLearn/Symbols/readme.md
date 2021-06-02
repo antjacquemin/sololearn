@@ -37,7 +37,7 @@ for char in input():
 ```
 ```python
 import re
-print(re.sub(r"[a-zA-Z0-9 ", "", input()))
+print(re.sub(r"[^a-zA-Z0-9 ]", "", input()))
 ```
 ### Ruby
 ```ruby
