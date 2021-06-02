@@ -37,9 +37,37 @@ int main() {
 ```
 ### C++
 ```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s;
+    cin >> s;
+    string reversed(s.rbegin(), s.rend());
+    cout << reversed;
+    return 0;
+} 
 ```
 ### C#
 ```cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] charArray = Console.ReadLine().ToCharArray();
+            Array.Reverse(charArray);
+            Console.WriteLine(new string(charArray));
+        }
+    }
+} 
 ```
 ### Java
 ```java
@@ -64,4 +92,7 @@ puts gets.chomp.reverse
 ```
 ### Swift
 ```swift
+if let s = readLine() {
+    print(String(s.reversed()))
+}
 ```
