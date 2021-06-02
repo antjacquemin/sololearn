@@ -35,6 +35,10 @@ for char in input():
     if char.isalnum() or char == " ":
         print(char, end="")
 ```
+```python
+import re
+print(re.sub(r"[a-zA-Z0-9 ", "", input()))
+```
 ### Ruby
 ```ruby
 puts gets.chomp.gsub /[^[:alnum:] ]/, ""
