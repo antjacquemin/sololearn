@@ -130,7 +130,7 @@ namespace SoloLearn
 ```java
 import java.util.Scanner;
 
-public class CreditCardValidator {
+public class Program {
     
     public static boolean luhn(String cardnumber) {
         int digit, total = 0;

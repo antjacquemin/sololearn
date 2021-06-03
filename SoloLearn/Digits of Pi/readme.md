@@ -31,7 +31,7 @@ The 12th decimal digit of Pi is 9: 3.14159265358**9**793...
 import java.util.Scanner;
 import java.math.BigInteger;
  
-public class DigitsPy {
+public class Program {
 
     public static int pi(int dec) {
         final BigInteger TWO = BigInteger.valueOf(2), THREE = BigInteger.valueOf(3), FOUR = BigInteger.valueOf(4), SEVEN = BigInteger.valueOf(7);
