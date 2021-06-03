@@ -65,7 +65,7 @@ namespace SoloLearn
 ```java
 import java.util.Scanner;
 
-public class HalloweenCandy {
+public class Program {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
