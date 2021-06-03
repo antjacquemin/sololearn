@@ -5,7 +5,7 @@ If you are given a string of random letters, your task is to evaluate whether an
 ### Input Format
 A string of random letter characters (no numbers or other buttons were pressed).
 ### Output Format
-A string that says 'Deja Vu' if any letter is repeated in the input string, or a string that says 'Unique' if there are no repeats.
+A string that says '**Deja Vu**' if any letter is repeated in the input string, or a string that says '**Unique**' if there are no repeats.
 ### Sample Input
 ```
 aaaaaaaghhhhjkll
@@ -31,6 +31,18 @@ Your program should output 'Deja Vu' because there are many repetitions in 'aaaa
 ```
 ### Python
 ```python
+mot = input()
+lettres = set()
+dejaVu = False
+for char in mot:
+    if char in lettres:
+        dejaVu = True
+    else:
+        lettres.add(char)
+if dejaVu:
+    print("Deja Vu")
+else:
+    print("Unique")
 ```
 ### Ruby
 ```ruby
