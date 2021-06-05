@@ -1,6 +1,6 @@
-ordre = input().replace("x", "").split("$")
+order = input().replace("x", "").split("$")
 
-if ordre[0] != "" and ordre[0][-1] == "T" or ordre[1] != "" and ordre[1][0] == "T":
+if order[0] != "" and order[0][-1] == "T" or order[1] != "" and order[1][0] == "T":
     print("ALARM")
 else:
     print("quiet")
