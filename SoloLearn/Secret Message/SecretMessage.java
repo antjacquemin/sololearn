@@ -7,9 +7,9 @@ public class SecretMessage {
         char[] phrase = input.nextLine().toLowerCase().toCharArray();
         for (char c: phrase) {
             if (c == ' ') 
-                System.out.println(" ");
+                System.out.print(" ");
             else
-                System.out.println((char) ('a' + 'z' - c));
+                System.out.print((char) ('a' + 'z' - c));
         }
         input.close();
     }
