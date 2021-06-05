@@ -31,6 +31,24 @@ The string in question has five words with a total of 26 letters (spaces do not 
 ```
 ### Python
 ```python
+from math import ceil
+from string import punctuation
+
+essay = input()
+filteredessay = essay.translate(essay.maketrans("", "", punctuation))
+words = filteredessay.split()
+average = sum(len(word) for word in words) / len(words)
+print(ceil(average))
+```
+```python
+from math import ceil
+from string import punctuation
+
+essay = input()
+filteredessay = "".join(filter(lambda x: x not in punctuation, essay))
+words = filteredessay.split()
+average = sum(map(len, words)) / len(words)
+print(ceil(average))
 ```
 ### Ruby
 ```ruby
