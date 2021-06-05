@@ -7,4 +7,3 @@ if let distance = readLine(), let runnerSpeed = readLine(), let coyoteSpeed = re
         print("Yum")
     }
 }
-
