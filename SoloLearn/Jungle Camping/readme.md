@@ -19,12 +19,82 @@ You heard the noise made by a tiger, then a bird, and then a snake.
 ## Solutions
 ### C
 ```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char sounds[1000], animals[1000];
+    fgets(sounds, 1000, stdin);
+    char *sound = strtok(sounds, " ");
+    while (sound != NULL) {
+        if (strcmp(sound, "Grr") == 0)
+            strcat(animals, "Lion ");
+        else if (strcmp(sound, "Rawr") == 0)
+            strcat(animals, "Tiger ");
+        else if (strcmp(sound, "Ssss") == 0)
+            strcat(animals, "Snake ");
+        else if (strcmp(sound, "Chirp") == 0)
+            strcat(animals, "Bird ");
+        sound = strtok(NULL, " ");
+    }
+    animals[strlen(animals) - 1] = 0;
+    printf("%s", animals);
+    return 0;
+}
 ```
 ### C++
 ```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string sound, animals;
+    while (cin >> sound) {
+        if (sound == "Grr")
+            animals += "Lion ";
+        else if (sound == "Rawr")
+            animals += "Tiger ";
+        else if (sound == "Ssss")
+            animals += "Snake ";
+        else if (sound == "Chirp")
+            animals += "Bird ";
+    }
+    animals.pop_back();
+    cout << animals;
+    return 0;
+}
+
 ```
 ### C#
 ```cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string sounds = Console.ReadLine(), animals = "";
+            foreach (string sound in sounds.Split()) {
+                if (sound == "Grr")
+                    animals += "Lion ";
+                else if (sound == "Rawr")
+                    animals += "Tiger ";
+                else if (sound == "Ssss")
+                    animals += "Snake ";
+                else if (sound == "Chirp")
+                    animals += "Bird ";
+            }
+            animals.Remove(animals.Length - 1);
+            Console.WriteLine(animals);
+        }
+    }
+}
 ```
 ### Java
 ```java
@@ -86,4 +156,23 @@ puts animals[0..-2]
 ```
 ### Swift
 ```swift
+import Foundation
+
+if let sounds = readLine() {
+    let array = sounds.components(separatedBy: " ")
+    var animals = ""
+    for sound in array {
+        if sound == "Grr" { 
+            animals += "Lion "
+        } elif sound == "Rawr" {
+            animals += "Tiger "
+        } elif sound == "Ssss" {
+            animals += "Snake "
+        } elif sound == "Chirp" {
+            animals += "Bird "
+        }
+    }
+    print(animals.fropLast())
+}
+
 ```
