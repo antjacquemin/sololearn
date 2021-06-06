@@ -8,7 +8,7 @@ Challenge | C   | C++ | C#  | Java | Python | Ruby | Swift |
 ---|:---:|:---:|:---:|:---:|:---:|:---:|:---:
 [2D Map](2D Map)|❌|❌|❌|❌|✔️|❌|❌
 [Argentina](Argentina/radme.md)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
-[Average Word Length](Average Word Length/readme.md)|✔️|✔️|✔️|✔️|[✔️](Average Word Length/AverageWordLength.py)|✔️|✔️
+[Average Word Length](<Average Word Length/readme.md>)|✔️|✔️|✔️|✔️|[✔️](<Average Word Length/AverageWordLength.py>)|✔️|✔️
 [Balconies](Balconies)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Ballpark Orders](Ballpark Orders)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Building Blocks](Building Blocks)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
