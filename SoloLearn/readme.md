@@ -6,8 +6,8 @@ You can also check my SoloLearn [profile](https://www.sololearn.com/profile/1750
 
 Challenge | C   | C++ | C#  | Java | Python | Ruby | Swift |
 ---|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-[2D Map](2D Map)|❌|❌|❌|❌|✔️|❌|❌
-[Argentina](Argentina/radme.md)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
+[2D Map](<2D Map>)|❌|❌|❌|❌|✔️|❌|❌
+[Argentina](Argentina/readme.md)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Average Word Length](<Average Word Length/readme.md>)|✔️|✔️|✔️|✔️|[✔️](<Average Word Length/AverageWordLength.py>)|✔️|✔️
 [Balconies](Balconies)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Ballpark Orders](Ballpark Orders)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
