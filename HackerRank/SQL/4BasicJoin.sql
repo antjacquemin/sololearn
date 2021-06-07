@@ -28,3 +28,16 @@ SELECT h.hacker_id, name FROM Hackers h
     HAVING COUNT(h.hacker_id) > 1
     ORDER BY COUNT(h.hacker_id) DESC, h.hacker_id
 
+-- 6 Ollivander's Inventory
+SELECT id, age, coins_needed, power FROM Wands w
+    JOIN Wands_Property wp ON wp.code = w.code
+    WHERE NOT is_evil AND coins_needed = (
+        SELECT MIN(coins_needed) FROM Wands wmin
+            JOIN Wands_Property wpmin ON wpmin.code = wmin.code
+            WHERE NOT wpmin.is_evil AND wpmin.age = wp.age AND wmin.power = w.power
+    )    
+    ORDER BY power DESC, age DESC;
+
+-- 7 Challenges
+
+-- 8 Contest Leaderboard
