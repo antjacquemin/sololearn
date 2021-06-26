@@ -57,7 +57,7 @@ Challenge | C   | C++ | C#  | Java | Python | Ruby | Swift |
 [Number of Ones](<Code Coach/Number of Ones>)|❌|❌|❌|❌|✔️|❌|❌
 [Paint Costs](<Code Coach/Paint Costs>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Password Validation](<Code Coach/Password Validation>)|❌|❌|❌|❌|✔️|✔️|✔️
-[Pig Latin](<Code Coach/Pig Latin>)|❌|❌|❌|❌|✔️|❌|❌
+[Pig Latin](<Code Coach/Pig Latin>)|❌|❌|❌|❌|✔️|✔️|❌
 [Poker Hand](<Code Coach/Poker Hand>)|❌|❌|❌|❌|❌|❌|❌
 [Popsicles](<Code Coach/Popsicles>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Roadrunner](<Code Coach/Roadrunner>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
