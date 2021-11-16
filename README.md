@@ -62,7 +62,7 @@ Challenge | C   | C++ | C#  | Java | Python | Ruby | Swift |
 [Popsicles](<Code Coach/Popsicles>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Roadrunner](<Code Coach/Roadrunner>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Safety Deposit Boxes](<Code Coach/Safety Deposit Boxes>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
-[Secret Message](<Code Coach/Secret Messag>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
+[Secret Message](<Code Coach/Secret Message>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Security](<Code Coach/Security>)|❌|❌|❌|✔️|✔️|❌|❌
 [Skee-Ball](<Code Coach/Skee-Ball>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
 [Snap, Crackle and Pop](<Code Coach/Snap, Crackle and Pop>)|✔️|✔️|✔️|✔️|✔️|✔️|✔️
